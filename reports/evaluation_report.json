@@ -1,0 +1,38 @@
+{
+  "zscore_baseline": {
+    "detector": "zscore_baseline",
+    "true_positives": 1,
+    "false_positives": 25,
+    "false_negatives": 3,
+    "precision": 0.038,
+    "recall": 0.25,
+    "f1": 0.067,
+    "matched_labels": [
+      "2013-12-16 17:25:00"
+    ],
+    "unmatched_labels": [
+      "2013-12-11 06:00:00",
+      "2014-01-28 13:55:00",
+      "2014-02-08 14:30:00"
+    ],
+    "n_events": 26
+  },
+  "isolation_forest_primary": {
+    "detector": "isolation_forest_primary",
+    "true_positives": 2,
+    "false_positives": 2,
+    "false_negatives": 2,
+    "precision": 0.5,
+    "recall": 0.5,
+    "f1": 0.5,
+    "matched_labels": [
+      "2013-12-16 17:25:00",
+      "2014-02-08 14:30:00"
+    ],
+    "unmatched_labels": [
+      "2013-12-11 06:00:00",
+      "2014-01-28 13:55:00"
+    ],
+    "n_events": 4
+  }
+}
